@@ -11,7 +11,7 @@ router.get("/", function (req, res) {
     };
     console.log(hbsObject);
     res.render("index", hbsObject);
-  });name
+  });
 });
 
 router.post("/api/burgers", function (req, res) {
