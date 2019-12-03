@@ -1,0 +1,21 @@
+{
+  "name": "unit13-burgerlogger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merryleemoline/unit13-burgerlogger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merryleemoline/unit13-burgerlogger/issues"
+  },
+  "homepage": "https://github.com/merryleemoline/unit13-burgerlogger#readme"
+}
