@@ -1,5 +1,5 @@
 
-var connection = require("./promisify-mysql.js");
+var connection = require("./connection.js");
 
 function printQuestionMarks(num) {
   var arr = [];

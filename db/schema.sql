@@ -1,12 +1,12 @@
 ### Schema
 
-CREATE DATABASE burgers_db;
+CREATE DATABASE IF NOT EXISTS burgers_db;
 USE burgers_db;
 
-CREATE TABLE burgers
+DROP TABLE IF EXISTS burgers
 (
 	id int NOT NULL AUTO_INCREMENT,
-	burger_name varchar(255) NOT NULL,
+	burger_name varchar(50) NOT NULL,
 	devoured BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );
